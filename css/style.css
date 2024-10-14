@@ -18,22 +18,24 @@ nav {
   max-width: 1140px;
   padding: 32px;
   margin: 0 auto;
+}
+
+.nav-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav h2 {
+.nav-title {
   font-size: 28px;
 }
-
-nav h2 a {
+.nav-title a {
   text-decoration: none;
   color: #0d1321;
 }
 
-.nav-btn{
-    border-radius: 10px;
+.nav-btn {
+  border-radius: 10px;
 }
 
 /* banner section */
@@ -337,14 +339,14 @@ footer {
   padding: 40px;
 }
 
-.next-target-article title{
-    color: #000000;
+.next-target-article title {
+  color: #000000;
 }
 
-.next-target-description{
-    margin: 15px 0px;
+.next-target-description {
+  margin: 15px 0px;
 }
 
-.next-target-article-btn{
-    margin:0;
+.next-target-article-btn {
+  margin: 0;
 }
