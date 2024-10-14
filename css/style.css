@@ -264,3 +264,30 @@
     padding: 16px;
     border-radius: 10px;
 }
+
+/* footer-section */
+footer{
+    background-color: #0d132108;
+    padding: 32px;
+}
+
+.footer_section{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media{
+    display: flex;
+    gap: 10px;
+}
+
+.social-media li{
+    list-style: none;
+}
+
+.social-media li a{
+    text-decoration: none;
+}
