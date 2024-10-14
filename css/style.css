@@ -71,7 +71,8 @@
 
 .web-title,
 .inspiration-title,
-.current-target-title {
+.current-target-title,
+.support-title {
   color: #0d1321;
   font-size: 32px;
   font-weight: 800;
@@ -82,7 +83,8 @@
 
 .web-description,
 .inspiration-description,
-.current-target-description {
+.current-target-description,
+.support-description {
   color: #0d1321;
   font-size: 16px;
   font-weight: 400;
@@ -121,7 +123,8 @@
   margin: 16px 0px 32px;
 }
 
-.article-btn {
+.article-btn,
+.submit-btn {
   font-size: 20px;
   font-weight: 600;
   padding: 12px 20px;
@@ -141,7 +144,7 @@
 /* my-inspiration-section */
 
 .my-inspiration-section {
-  width: 950px;
+  width: 1140px;
   margin: 85px auto;
 }
 
@@ -161,13 +164,13 @@
 /* my-current-target-section */
 
 .my-current-target-section {
-  width: 950px;
+  width: 1140px;
   margin: 50px auto;
 }
 
-.current-target-articles{
-    display: flex;
-    gap: 24px;
+.current-target-articles {
+  display: flex;
+  gap: 24px;
 }
 
 .target-article {
@@ -178,12 +181,12 @@
   background: #ff4c1e0d;
 }
 
-.article-css{
-    background: #004ce80d;
+.article-css {
+  background: #004ce80d;
 }
 
-.article-js{
-    background: #ffdf000d;
+.article-js {
+  background: #ffdf000d;
 }
 
 .target-article-title {
@@ -213,4 +216,51 @@
   cursor: pointer;
   margin-top: 24px;
   text-align: left;
+}
+
+/* support-section */
+
+.support-section {
+  width: 1140px;
+  height: 313px;
+  margin: 0px auto 80px;
+  border-radius: 16px;
+  background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../assets/handshake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.support-title{
+    color: #ffffff;
+}
+
+.support-description{
+    color: #ffffff;
+}
+
+.support-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-section{
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #000000;
+    width: 548px;
+    border-radius: 10px;
+    border: none;
+}
+
+.submit-btn{
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 10px;
 }
